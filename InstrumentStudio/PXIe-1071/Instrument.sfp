@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="458A58C05FA453966DC417617E9D8C5E74849AD5F41AFE69AE3E813DF3B61CBEE946A9B8EC705D4376A4A97D127388AC306550CF4A6B2EEF3ED9F26402F20483" Timestamp="1D9632996A17249" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="22.8.0.49956" FeatureSetName="Device Driver Task" Name="http://www.ni.com/InstrumentFramework/Document/SourceModel/SoftFrontPanel" Version="22.2.0.0" />
+		<ParsableNamespace AssemblyFileVersion="22.8.0.49956" FeatureSetName="UnifiedTask" Name="http://www.ni.com/InstrumentFramework/Document/SourceModel/UnifiedSoftFrontPanel" Version="1.0.0.0" />
+		<ParsableNamespace AssemblyFileVersion="9.6.0.49956" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="22.8.0.49956" Name="InstrumentStudio" PersistenceVersion="22.1.0.0" Version="22.8.0.49956" />
+	</SourceModelFeatureSet>
+	<UnifiedTask Id="8c206bef0d9e40a9991dab529e923f8a" LayoutInformation="{&quot;Format Version&quot;:1,&quot;Application Format Version&quot;:22.0,&quot;Layout Information&quot;:{&quot;Sections&quot;:[{&quot;Columns Progressive Count&quot;:1,&quot;Layout Information Presentation&quot;:&quot;ConfigurationWithVisualization&quot;,&quot;Columns&quot;:[{&quot;Containers Progressive Count&quot;:1,&quot;Layout Information Index&quot;:0,&quot;Containers&quot;:[{&quot;Container Model Defition&quot;:&quot;NationalInstruments.InstrumentFramework.Scope&quot;,&quot;Container Assignment State&quot;:&quot;Available&quot;,&quot;Container Identifier&quot;:&quot;NationalInstruments.InstrumentFramework.Scope.task&quot;,&quot;Container Instrument Name&quot;:&quot;Oscilloscope&quot;,&quot;Layout Information Name&quot;:&quot;Oscilloscope 1&quot;,&quot;Layout Information Index&quot;:0,&quot;Layout Information Presentation&quot;:&quot;ConfigurationWithVisualization&quot;}]}]},{&quot;Columns Progressive Count&quot;:0,&quot;Layout Information Presentation&quot;:&quot;ConfigurationOnly&quot;}]}}" PinAwareInformation="{&quot;Format Version&quot;:1,&quot;Application Format Version&quot;:22.0}" xmlns="http://www.ni.com/InstrumentFramework/Document/SourceModel/UnifiedSoftFrontPanel" />
+	<EnvoyManagerFile Id="5826969ae04f443eb9a7e3351bf6af92" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="74b04ededc8f43ae9fc28531b9932403" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="ceeec45645c247689715dab4aa351e5c" Name="Instrument.sfp" NameTracksFileName="True" />
+		<EmbeddedDefinitionReference Bindings="NI-SCOPE" Id="e25ec039dc304bea824ffb2fc915f841" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.Task" Name="NationalInstruments.InstrumentFramework.Scope.task" OverridingModelDefinitionType="NationalInstruments.InstrumentFramework.Scope">
+			<Task DriverName="NI-SCOPE" Id="68e65570847a43cd931f3c675fd63eec" InstrumentName="NationalInstruments.InstrumentFramework.Scope" IsStopped="False" xmlns="http://www.ni.com/InstrumentFramework/Document/SourceModel/SoftFrontPanel" />
+		</EmbeddedDefinitionReference>
+	</EnvoyManagerFile>
+</SourceFile>
