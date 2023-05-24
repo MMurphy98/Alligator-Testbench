@@ -26,4 +26,5 @@ Tracking Mode，enable信号保持高电位，开关Always On;
 
 - **`./PXI-5999`** 存放关于示波器的驱动程序；
 - **`./Test_1_Filter_NI`** 测试示波器与1MHz滤波器效果；
-- **`./Test_2_AlwaysOn`** 开关时钟导通测试结果；
+- **`./Test_2_AlwaysOn`** 开关始终导通测试结果；
+- **`./Test_3_AlwaysOnWithBuffer`** 基于**PCB Alligator Switches v2.0**，在输入输出级都添加了ADA4899的Buffer，测量开关始终导通的谐波失真；
