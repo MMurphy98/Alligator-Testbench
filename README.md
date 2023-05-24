@@ -4,7 +4,7 @@ The repository for testing code and measurement results of Alligator Bootstrappe
 
 ---
 
-!([.\image\Measurements.png](https://github.com/MMurphy98/Alligator-Testbench/blob/master/image/Measurements.png)
+!([Measurements](https://github.com/MMurphy98/Alligator-Testbench/blob/master/image/Measurements.png))
 
 
 
